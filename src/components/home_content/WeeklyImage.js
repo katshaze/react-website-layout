@@ -11,7 +11,8 @@ class WeeklyImage extends Component {
     this.state = {
       buttonText: "See more",
       buttonLink: "#/Photos",
-      imageSource: Img_CSS
+      imageSource: Img_CSS,
+      imageAltText: "Family Guy's Peter Griffin struggling with a window blind, with a caption of 'CSS'"
     }
   }
 
@@ -19,7 +20,7 @@ class WeeklyImage extends Component {
     return (
       <div className="weekly-image-div">
         <h4>Image of the week</h4>
-        <Image src={this.state.imageSource}/>
+        <Image src={this.state.imageSource} alt={this.state.imageAltText}/>
         <Button href={this.state.buttonLink} text={this.state.buttonText}/>
         <hr />
       </div>

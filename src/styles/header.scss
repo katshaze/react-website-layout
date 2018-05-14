@@ -1,0 +1,53 @@
+/* DOC COLOURS */
+$document-grey: #ccc;
+$document-blue: #2988FF;
+$document-navy: #182F4D;
+
+/* HEADER-SPECIFIC STYLES */
+.header {
+  margin-bottom: 17.5px;
+  background-color: $document-blue;
+  padding-top: 35px;
+}
+.site-heading {
+  background-color: $document-blue;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+}
+
+.header-rule {
+  height: 9px;
+  width: 100%;
+  background-color: $document-navy;
+}
+
+.nav {
+  text-align: left;
+  padding-left: 10px;
+  background-color: white;
+}
+
+.nav-link {
+  padding: 11px 12.5px;
+  margin: 4px 7px;
+  border-radius: 3px;
+  display: inline-block;
+  text-decoration: none;
+  color: #676767;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  background-color: $document-navy;
+  color: white;
+}
+
+.is-active {
+  background-color: $document-navy;
+  color: white;
+}

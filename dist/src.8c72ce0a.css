@@ -1,0 +1,71 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#app {
+  width: 890px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #ccc;
+}
+
+.header, .main, .home-main, .aside, .home-aside {
+  background-color: white;
+}
+
+.header {
+  margin: 5px;
+  margin-bottom: 15px;
+}
+.site-heading {
+  background-color: #2988FF;
+  height: 12vh;
+  padding-top: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.header-rule {
+  height: 1em;
+  width: 100%;
+  background-color: #182F4D;
+}
+
+.nav {
+  text-align: left;
+
+}
+
+.nav-link {
+  padding: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.main, .aside, .home-main, .home-aside {
+  display: inline-block;
+  line-height: top;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.main, .home-main {
+  width: 67%;
+  margin-left: 5px;
+  margin-right: 15px;
+}
+
+.aside, .home-aside {
+  width: 30%;
+  margin-right: 5px;
+}

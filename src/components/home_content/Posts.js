@@ -15,6 +15,8 @@ class Posts extends Component {
     }
   }
 
+  // NOTE: Data for posts could be imported here from an external server via an AJAX request. For now however, the data is saved in the project folder, and the first five blog posts are passed down to be rendered in the Post componenets.
+
   render() {
     return (
       <div>

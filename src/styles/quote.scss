@@ -1,0 +1,25 @@
+/* DOC COLOURS */
+$document-grey: #ccc;
+$document-blue: #2988FF;
+$document-navy: #182F4D;
+
+/* QUOTES DIV */
+div.quote-div {
+  border-left: 4px solid $document-navy;
+  padding: 0 8px;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  p {
+    margin: 0;
+  }
+  p.quote {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  p.quoted-person {
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+  }
+}

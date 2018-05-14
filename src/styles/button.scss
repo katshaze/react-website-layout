@@ -1,0 +1,16 @@
+/* DOC COLOURS */
+$document-grey: #ccc;
+$document-blue: #2988FF;
+$document-navy: #182F4D;
+
+/* BUTTON COMPONENT */
+.button-div {
+  background-color: $document-blue;
+  padding: 10px;
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+  }
+}

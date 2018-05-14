@@ -5,7 +5,6 @@ class MembersAside extends Component {
     return (
       <div>
         <h4>Sign up to become a member!</h4>
-
       </div>
     )
   }

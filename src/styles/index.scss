@@ -44,7 +44,6 @@ aside{
 }
 
 /* SHARED STYLINGS */
-
 hr {
   height: 0.5px;
   border: 0;
@@ -79,60 +78,6 @@ p {
 a {
   font-weight: bold;
   font-size: 15px;
-}
-
-
-
-/* POSTS/POST STYLINGS */
-div.post-div {
-  margin-top: 21px;
-}
-
-/* IMAGE DIV */
-div.weekly-image-div {
-
-}
-div.image-div {
-  margin-bottom: 3px;
-}
-
-/* QUOTES DIV */
-div.weekly-quote-div {
-  margin-top: 19px;
-}
-
-div.quote-div {
-  border-left: 4px solid $document-navy;
-  padding: 0 8px;
-  margin-top: 18px;
-  margin-bottom: 12px;
-  p {
-    margin: 0;
-  }
-  p.quote {
-    font-size: 1em;
-    line-height: 1.5;
-
-  }
-  p.quoted-person {
-    font-style: italic;
-    font-size: 12px;
-    padding-top: 6px;
-    padding-bottom: 2px;
-  }
-}
-
-/* BUTTON COMPONENT */
-
-.button-div {
-  background-color: $document-blue;
-  padding: 10px;
-  a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer;
-  }
 }
 
 /* MEDIA QUERIES FOR RESPONSIVENESS */

@@ -62,44 +62,6 @@ a {
   font-weight: bold;
   font-size: 15px; }
 
-/* POSTS/POST STYLINGS */
-div.post-div {
-  margin-top: 21px; }
-
-/* IMAGE DIV */
-div.image-div {
-  margin-bottom: 3px; }
-
-/* QUOTES DIV */
-div.weekly-quote-div {
-  margin-top: 19px; }
-
-div.quote-div {
-  border-left: 4px solid #182F4D;
-  padding: 0 8px;
-  margin-top: 18px;
-  margin-bottom: 12px; }
-  div.quote-div p {
-    margin: 0; }
-  div.quote-div p.quote {
-    font-size: 1em;
-    line-height: 1.5; }
-  div.quote-div p.quoted-person {
-    font-style: italic;
-    font-size: 12px;
-    padding-top: 6px;
-    padding-bottom: 2px; }
-
-/* BUTTON COMPONENT */
-.button-div {
-  background-color: #2988FF;
-  padding: 10px; }
-  .button-div a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    cursor: pointer; }
-
 /* MEDIA QUERIES FOR RESPONSIVENESS */
 @media screen and (max-width: 820px) {
   main {
@@ -151,7 +113,43 @@ h1 {
 .is-active {
   background-color: #182F4D;
   color: white; }
+/* POSTS/POST STYLINGS */
+div.post-div {
+  margin-top: 21px; }
 .home-main, .home-aside {
   margin: 0;
   padding: 0;
   width: 100%; }
+
+div.weekly-quote-div {
+  margin-top: 19px; }
+/* IMAGE DIV */
+div.image-div {
+  margin-bottom: 3px; }
+/* DOC COLOURS */
+/* BUTTON COMPONENT */
+.button-div {
+  background-color: #2988FF;
+  padding: 10px; }
+  .button-div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer; }
+/* DOC COLOURS */
+/* QUOTES DIV */
+div.quote-div {
+  border-left: 4px solid #182F4D;
+  padding: 0 8px;
+  margin-top: 18px;
+  margin-bottom: 12px; }
+  div.quote-div p {
+    margin: 0; }
+  div.quote-div p.quote {
+    font-size: 1em;
+    line-height: 1.5; }
+  div.quote-div p.quoted-person {
+    font-style: italic;
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 2px; }

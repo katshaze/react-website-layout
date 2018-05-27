@@ -4,7 +4,7 @@ This project uses React to create a webpage layout with reusable components acro
 
 ## Technologies used
 * HTML5
-* SASS
+* SCSS
 * JavaScript
 * React
 * Parcel (for bundling & transpiling)
@@ -15,7 +15,7 @@ This project uses React to create a webpage layout with reusable components acro
 * Easy for me (or other developers) to update
 
 ## Accessibility & Responsiveness
-I have tried to take into account accessibility in responsiveness in the following ways:
+I have tried to take into account accessibility and responsiveness in the following ways:
 * running an audit on accessibility via Chrome's dev tools (score 91%), which includes checks on things like having alt attributes on image tags etc.
 * using Chrome's responsiveness tools to check the site still loads on slower networks
 * adding in some responsiveness via media queries in the CSS to allow the site to render better on mobile (further improvements needed)

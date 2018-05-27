@@ -1,4 +1,5 @@
 import React, {PureComponent as Component} from 'react';
+import '../../styles/button.scss';
 
 class Button extends Component {
   render() {

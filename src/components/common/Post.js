@@ -1,5 +1,6 @@
 import React, {PureComponent as Component} from 'react';
 import {Link} from 'react-router-dom'; // destructuring
+import '../../styles/post.scss';
 
 class Post extends Component {
   render() {

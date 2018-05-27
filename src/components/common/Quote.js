@@ -1,4 +1,5 @@
 import React, {PureComponent as Component} from 'react';
+import '../../styles/quote.scss';
 
 class Quote extends Component {
   render() {

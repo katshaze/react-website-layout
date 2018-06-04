@@ -16,6 +16,14 @@ class Posts extends Component {
   }
 
   // NOTE: Data for posts could be imported here from an external server via an AJAX request. For now however, the data is saved in the project folder, and the first five blog posts are passed down to be rendered in the Post componenets.
+  // e.g. axios request to server for list of top posts (would need to install and import axios)
+    // const fetchPosts = function() {
+    //   axios.get(POSTS_SERVER_URL).then(function(response) {
+    //     // push the top five blog posts to an array
+    //     // set the state with those first five items from the array
+    //   }.bind(this));
+    // }.bind(this);
+    // fetchPosts();
 
   render() {
     return (
